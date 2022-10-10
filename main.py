@@ -12,7 +12,7 @@ def time():
     clock.config(text = string)
     now = datetime.now()
     date.config(text=now.strftime('%A %x'))
-    clock.after(1000, time)
+    root.after(1000, time)
 
 # root window
 root=Tk()
