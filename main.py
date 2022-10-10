@@ -20,10 +20,10 @@ root.resizable(0,0)
 root.configure(bg='#404040')
 
 my_notebook = ttk.Notebook(root)
-my_notebook.pack(pady=15)
+my_notebook.pack()
 
-my_frame1 = Frame(my_notebook,width=550,height = 275,bg='#404040')
-my_frame2 = Frame(my_notebook,width=550,height = 275,bg='#404040')
+my_frame1 = Frame(my_notebook,width=600,height = 300,bg='#404040')
+my_frame2 = Frame(my_notebook,width=600,height = 300,bg='#404040')
 
 my_frame1.pack(fill="both",expand=1)
 my_frame2.pack(fill="both",expand=1)
